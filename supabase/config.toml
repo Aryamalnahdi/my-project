@@ -1,0 +1,10 @@
+project_id = "interflow-dashboard"
+
+# Only these declared Auth settings are pushed to the linked project.
+# Account creation is performed by the authenticated administrator on the server.
+[auth]
+enable_signup = false
+
+[auth.email]
+# This enables email/password login; auth.enable_signup above blocks public signup.
+enable_signup = true
